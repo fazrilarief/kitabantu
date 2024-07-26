@@ -38,6 +38,6 @@ class Fundraising extends Model
     }
 
     public function withdrawls(){
-        return $this->hasMany(FundraisingWithdrawl::class);
+        return $this->hasMany(FundraisingWithdrwal::class);
     }
 }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Fundraisers;
+use App\Models\FundraisingWithdrwal;
 use Illuminate\Http\Request;
 
-class FundraisersController extends Controller
+class FundraisingWithdrwalController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class FundraisersController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Fundraisers $fundraisers)
+    public function show(FundraisingWithdrwal $fundraisingWithdrwal)
     {
         //
     }
@@ -42,7 +42,7 @@ class FundraisersController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Fundraisers $fundraisers)
+    public function edit(FundraisingWithdrwal $fundraisingWithdrwal)
     {
         //
     }
@@ -50,7 +50,7 @@ class FundraisersController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Fundraisers $fundraisers)
+    public function update(Request $request, FundraisingWithdrwal $fundraisingWithdrwal)
     {
         //
     }
@@ -58,7 +58,7 @@ class FundraisersController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Fundraisers $fundraisers)
+    public function destroy(FundraisingWithdrwal $fundraisingWithdrwal)
     {
         //
     }

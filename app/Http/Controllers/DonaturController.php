@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\FundraisingWithdrawl;
+use App\Models\Donaturs;
 use Illuminate\Http\Request;
 
-class FundraisingWithdrawlController extends Controller
+class DonaturController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class FundraisingWithdrawlController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(FundraisingWithdrawl $fundraisingWithdrawl)
+    public function show(Donaturs $donaturs)
     {
         //
     }
@@ -42,7 +42,7 @@ class FundraisingWithdrawlController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(FundraisingWithdrawl $fundraisingWithdrawl)
+    public function edit(Donaturs $donaturs)
     {
         //
     }
@@ -50,7 +50,7 @@ class FundraisingWithdrawlController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, FundraisingWithdrawl $fundraisingWithdrawl)
+    public function update(Request $request, Donaturs $donaturs)
     {
         //
     }
@@ -58,7 +58,7 @@ class FundraisingWithdrawlController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(FundraisingWithdrawl $fundraisingWithdrawl)
+    public function destroy(Donaturs $donaturs)
     {
         //
     }

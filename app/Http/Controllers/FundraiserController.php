@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Donaturs;
+use App\Models\Fundraisers;
 use Illuminate\Http\Request;
 
-class DonatursController extends Controller
+class FundraiserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class DonatursController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Donaturs $donaturs)
+    public function show(Fundraisers $fundraisers)
     {
         //
     }
@@ -42,7 +42,7 @@ class DonatursController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Donaturs $donaturs)
+    public function edit(Fundraisers $fundraisers)
     {
         //
     }
@@ -50,7 +50,7 @@ class DonatursController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Donaturs $donaturs)
+    public function update(Request $request, Fundraisers $fundraisers)
     {
         //
     }
@@ -58,7 +58,7 @@ class DonatursController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Donaturs $donaturs)
+    public function destroy(Fundraisers $fundraisers)
     {
         //
     }

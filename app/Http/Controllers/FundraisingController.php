@@ -62,4 +62,8 @@ class FundraisingController extends Controller
     {
         //
     }
+
+    public function activate_fundraising(){
+        //
+    }
 }

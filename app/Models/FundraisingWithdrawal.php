@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class FundraisingWithdrawl extends Model
+class FundraisingWithdrwal extends Model
 {
     use HasFactory, SoftDeletes;
 
