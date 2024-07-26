@@ -16,4 +16,5 @@ class FundraisingPhases extends Model
         'photo',
         'notes',
     ];
+
 }

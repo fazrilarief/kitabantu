@@ -15,4 +15,8 @@ class Category extends Model
         'slug',
         'icon',
     ];
+
+    public function fundraisings(){
+        return $this->hasMany(Fundraising::class);
+    }
 }

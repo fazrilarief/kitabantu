@@ -18,4 +18,8 @@ class Donatur extends Model
         'is_paid',
         'proof',
     ];
+
+    public function fundraising(){
+        return $this->belongsTo(Donatur::class);
+    }
 }
