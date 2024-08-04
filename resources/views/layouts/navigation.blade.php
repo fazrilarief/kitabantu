@@ -28,7 +28,7 @@
                     @endrole
 
                     @role('owner|fundraiser')
-                        <x-nav-link :href="route('admin.fundraisings.index')" :active="request()->routeIs('admin.fundraisers.index')">
+                        <x-nav-link :href="route('admin.fundraisings.index')" :active="request()->routeIs('admin.fundraisings.index')">
                             {{ __('Fundraisings') }}
                         </x-nav-link>
                     @endrole
