@@ -24,7 +24,7 @@ class RoleSeeder extends Seeder
 
         $userOwner = User::create([
             'name' => 'Fazril Arief Nugraha',
-            'avatar' => 'images/default-avatar.png',
+            'avatar' => 'avatars/default-avatar.png',
             'email' => 'fazrilarief@gmail.com',
             'password' => bcrypt('fazril123'),
         ]);
